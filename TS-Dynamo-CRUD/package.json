@@ -1,0 +1,19 @@
+{
+  "name": "ts-dynamo-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.142.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4"
+  },
+  "type": "module"
+}
