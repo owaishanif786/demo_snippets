@@ -1,4 +1,4 @@
 # demo_snippets
 demo snippets
 
-### Typescript Dynamo CRUD
+1. Typescript Dynamo CRUD

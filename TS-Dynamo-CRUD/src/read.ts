@@ -3,14 +3,7 @@ import config  from './config.js';
 
 const client = new DynamoDBClient({ region: config.dynamoRegion });
 
-
-interface IBook {
-    ISBN: string;
-    published_date: string;
-    author:string;
-    category:string;
-    title:string;
-}
+import{IBook } from './IBook';
 
 
 //Querying on default Partition key and sort key. 
